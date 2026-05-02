@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPS - Сервисный центр</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<!-- Оверлей (затемнение) -->
+<div class="overlay" id="overlay"></div>
+
+<!-- Основной хедер -->
+<header class="header">
+  <div class="header__left">
+    <button class="header__icon header__icon--burger">
+  <span class="burger">
+    <span class="burger__line burger__line--long"></span>
+    <span class="burger__line burger__line--medium"></span>
+    <span class="burger__line burger__line--short"></span>
+  </span>
+</button>
+
+    <div class="header__logo">
+      <img src="./images/logo.png" alt="CPS" class="header__logo-img">
+    </div>
+  </div>
+
+  <div class="header__right">
+    <button class="header__icon">
+      <img src="/icon/repair.svg" alt="repair" class="header__icon-img">
+    </button>
+    <button class="header__icon">
+      <img src="/icon/checkstatus.svg" alt="checkstatus" class="header__icon-img">
+    </button>
+  </div>
+</header>
+
+<!-- Основной контент -->
+<section class="services">
+  <h1 class="services__title">Услуги и сервисы</h1>
+
+  <div class="services__tabs">
+    <button class="services__tab services__tab--active">
+      Ремонтируемые устройства
+    </button>
+    <button class="services__tab">
+      Дополнительные услуги
+    </button>
+    <button class="services__tab">
+      Цены на услуги
+    </button>
+    <button class="services__tab">
+      Адреса сервисных центров
+    </button>
+    <button class="services__tab">
+      Специальные цены
+    </button>
+    <button class="services__tab">
+      Отзывы
+    </button>
+  </div>
+
+  <div class="services__content">
+    <div class="services__text-wrapper">
+      <p class="services__text">
+        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+      </p>
+
+      <p class="services__text">
+        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким
+      </p>
+
+      <button class="services__read-more">
+        <span class="services__arrows">
+          <span class="services__arrow"></span>
+          <span class="services__arrow"></span>
+        </span>
+        Читать далее
+      </button>
+    </div>
+
+    <div class="services__image-wrapper">
+      <img src="./images/photo1.png" alt="CPS" class="services__image">
+    </div>
+  </div>
+</section>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
